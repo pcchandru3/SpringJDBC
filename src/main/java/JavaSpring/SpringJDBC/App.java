@@ -20,7 +20,7 @@ public class App
     	
     	CustomerDAO customerDAO = (CustomerDAO) appContext.getBean("customerDAO");
     	
-    	Customer customer = new Customer (600, "Chalapathi", 33);
+    	Customer customer = new Customer (800, "Chalapathi", 33);
     	
     	customerDAO.insertCustomer(customer);
     	
